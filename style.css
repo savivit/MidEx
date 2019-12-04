@@ -10,7 +10,11 @@ body {
     direction: rtl;
 }
 
-.header {
+.marg {
+    margin: auto 25%;
+}
+
+header {
     background-image: url(images/header_bg.png);
     color: white;
     font-size: 26px;
@@ -18,19 +22,47 @@ body {
     height: 105px;
     position: relative;
     z-index: 100;
+    margin: 0px;
 }
 
-.nav {
-    font-size: 16px;
-    border: 2px solid blue;
-    border-top: 0px;
+a.logo {
+    display: block;
+    width: 142px;
+    height: 93px;
+    position: absolute;
+    bottom: -20px;
+    right: -8px;
+    background: url(images/paz_logo.png) no-repeat 0 0;
+}
+
+nav {
     text-align: center;
-    padding: 10px 10px 10px 10px;
-    background-color: lightblue; 
+    padding: 10px 10px 10px 10px; 
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.navitem {
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 100%;
+    text-align: center;  
 }
 
 .navitem:hover {
     opacity: 0.5;
+  }
+
+  a {
+    text-decoration:none;
+  }
+
+  a:hover {
+    text-decoration:underline;
   }
 
 /*  
