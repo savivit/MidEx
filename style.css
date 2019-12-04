@@ -73,11 +73,47 @@ nav {
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
+    padding: 10px;
 }
 
-
-.row {
+.flexsonrow {
+    display: flex;
+    align-items: flex-end;
     justify-content: space-between;  
+}
+
+main {
+        margin-top: 30px;
+}
+.picb {
+    height: 355px;
+    border: greenyellow 2px solid;
+}
+.picdesc {
+    color:white;
+    vertical-align: text-bottom;
+    border-bottom-right-radius: 25px;
+    padding:10px;
+    margin: 10px;
+    background-color: black;
+    opacity: 0.5;
+}
+.pic1 {
+    width: 293px;
+    border-bottom-right-radius: 25px;
+    background: url(images/1908364606615453350.jpg) no-repeat 0 0;
+}
+
+.pic2 {
+    width: 293px;
+    border-bottom-right-radius: 25px;
+    background: url(images/Picture-046410251500.jpg) no-repeat 0 0;
+}
+
+.pic3 {
+    width: 293px;
+    border-bottom-right-radius: 25px;
+    background: url(images/291_354410564000.jpg) no-repeat 0 0;
 }
 
 footer {
@@ -96,7 +132,8 @@ footer {
     color: #fff;
     font-size: 13px;
     height: 100%;
-    text-align: center;  
+    text-align: center;
+    letter-spacing: 1px;  
 }
 
 .fb {
@@ -106,6 +143,7 @@ footer {
     height: 18px;
     background: url(images/fb_icon.png) no-repeat 0 0;
 }
+
 
 .pshara {
     color: red !important; 
