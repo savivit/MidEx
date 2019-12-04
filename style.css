@@ -27,6 +27,25 @@ header {
     margin: 0px;
 }
 
+.search {
+    display:inline;
+    position: absolute;
+    bottom: 56px;
+    left: 0px;
+}
+.search2 {
+    display:inline;
+    position: absolute;
+    bottom: 52px;
+    left: 0px;
+}
+
+form {
+    padding: 0px;
+    margin: 0px;
+    height: 19px;
+}
+
 a.logo {
     display: block;
     width: 142px;
@@ -39,7 +58,7 @@ a.logo {
 
 nav {
     text-align: center;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 0px 10px 0px;
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -63,7 +82,7 @@ nav {
 .homepic {
     position: absolute;
     bottom: -14px;
-    right: -12px;
+    right: -21px;
 }
 
 a {
@@ -105,7 +124,7 @@ main {
     color: white;
     border-bottom-right-radius: 25px;
     padding: 10px;
-    margin: 216px 10px auto auto;
+    margin: 220px 11px auto auto;
     background-color: rgba(0, 0, 0, 0.5);
     width: 228px;
     height: 125px;
@@ -201,10 +220,16 @@ main {
     position: absolute;
     top: -37px;
     right: 173px;
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+.secondrowdesc>a>p.more:hover {
+    text-decoration: underline;    
+    color:blue;
 }
 
 .readmore2 {
-    font-size: 13px;
+    font-size: 14px;
     text-align: right;
 }
 
