@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    padding:0px;
+    padding: 0px;
     margin: 0px;
 }
 
@@ -9,13 +9,15 @@ body {
     text-align: right;
     direction: rtl;
 }
+
 .mid {
-    width:900px;
+    width: 900px;
     height: 100%;
     align-content: center;
     margin: auto;
     position: relative;
 }
+
 header {
     background-image: url(images/header_bg.png);
     color: white;
@@ -37,7 +39,7 @@ a.logo {
 
 nav {
     text-align: center;
-    padding: 10px 10px 10px 10px; 
+    padding: 10px 10px 10px 10px;
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -46,37 +48,38 @@ nav {
 .navitem {
     display: inline-block;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     height: 100%;
-    text-align: center;  
+    text-align: center;
     position: relative;
 }
 
 .navitem:hover {
     opacity: 0.5;
-  }
+}
 
 .homepic {
     position: absolute;
-    bottom: -13px;
+    bottom: -14px;
     right: -12px;
 }
-  a {
-    text-decoration:none;
-  }
 
-  a:hover {
-    text-decoration:underline;
-  }
+a {
+    text-decoration: none;
+}
 
-  nav > ul {
+a:hover {
+    text-decoration: underline;
+}
+
+nav>ul {
     list-style: none;
     display: inline;
     padding: 0;
     margin: 0;
-  }
+}
 
 .flex-container {
     display: flex;
@@ -87,37 +90,41 @@ nav {
 .flexsonrow {
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;  
+    justify-content: space-between;
 }
 
 main {
-        margin-top: 30px;
+    margin: 30px 0px 60px 0px;
 }
+
 .picb {
     height: 355px;
 }
+
 .picdesc {
-    color:white;
+    color: white;
     border-bottom-right-radius: 25px;
-    padding:10px;
-    margin:216px 10px auto auto;
+    padding: 10px;
+    margin: 216px 10px auto auto;
     background-color: rgba(0, 0, 0, 0.5);
     width: 228px;
-    height: 125px; 
+    height: 125px;
 }
-.picdesc > h3 {
+
+.picdesc>h3 {
     font-size: 15px;
 }
-.picdesc > p, .picdesc > a > p {
+
+.picdesc>p, .picdesc>a>p {
     font-size: 13px;
 }
+
 .readmore {
-    text-align: left;   
+    text-align: left;
 }
 
 .readmore:hover {
-    color:lightblue;
-    
+    color: lightblue;
 }
 
 .pic1 {
@@ -138,6 +145,75 @@ main {
     background: url(images/291_354410564000.jpg) no-repeat 0 0;
 }
 
+.picc {
+    height: 216px;
+    background: url(images/small_cube_bg.png) repeat-x 0 0;
+}
+
+.pic4, .pic5, .pic6 {
+    width: 293px;
+    border-top-right-radius: 25px;
+}
+
+.secondrowdesc {
+    color: rgb(87, 87, 87);
+    padding: 10px;
+    margin: 216px 10px auto auto;
+    position: relative;
+}
+
+.secondrowdesc>h3 {
+    font-size: 15px;
+    position: absolute;
+    top: -208px;
+    right: 16px;
+}
+.more:hover {
+    color: blue;
+}
+
+/*small pic*/
+
+.secondrowdesc>div {
+    position: absolute;
+    top: -165px;
+    right: 12px;
+}
+
+/*map*/
+
+.secondrowdesc>span {
+    position: absolute;
+    top: -176px;
+    right: 190px;
+}
+
+.secondrowdesc>div.area {
+    position: absolute;
+    top: -165px;
+    right: 17px;
+}
+
+/* more details*/
+
+.secondrowdesc>a>p.more {
+    font-size:14px;
+    position: absolute;
+    top: -37px;
+    right: 173px;
+}
+
+.readmore2 {
+    font-size: 13px;
+    text-align: right;
+}
+
+.readmore2:hover {
+    color: blue;
+}
+
+/*footer items*/
+
 footer {
     position: fixed;
     background: url(images/footer_bg.png) repeat-x 0 0;
@@ -155,7 +231,7 @@ footer {
     font-size: 13px;
     height: 100%;
     text-align: center;
-    letter-spacing: 1px;  
+    letter-spacing: 1px;
 }
 
 .fb {
@@ -166,63 +242,10 @@ footer {
     background: url(images/fb_icon.png) no-repeat 0 0;
 }
 
-
 .pshara {
-    color: red !important; 
-}
-
-
-/*
-
-.box {
-    float: right;
-    justify-content: space-between;
-}
-
-
-
-
-
-
-  
-.article1 {
-    padding: 0px 30px 30px 30px;
-    border: 1px solid #676a7b;
-    box-align: center;
-    background-color: #6dacc3;
-}
-
-.article2 {
-    padding: 0px 30px 30px 30px;
-    border: 1px solid #676a7b;
-    box-align: center;
-    background-color: #d4a23c;
-}
-
-.footer {
-    border: 2px solid blue;
-    background-color: lightblue;
-    color: white;
-    font-size: 22px;
-    box-align: center;
-    padding: 30px 30px 30px 30px;
-    text-align: center;
+    color: red !important;
 }
 
 .clearfix::after {
     clear: both;
 }
-
-img {
-    display: block;
-}
-
-.heading {
-    font-weight: bold;
-}
-
-#wrp-pic {
-    float: right;
-    margin: 5px 0px 10px 30px;
-}
-*/
