@@ -46,17 +46,23 @@ nav {
 .navitem {
     display: inline-block;
     color: #fff;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     letter-spacing: 1px;
     height: 100%;
     text-align: center;  
+    position: relative;
 }
 
 .navitem:hover {
     opacity: 0.5;
   }
 
+.homepic {
+    position: absolute;
+    bottom: -13px;
+    right: -12px;
+}
   a {
     text-decoration:none;
   }
@@ -89,17 +95,31 @@ main {
 }
 .picb {
     height: 355px;
-    border: greenyellow 2px solid;
 }
 .picdesc {
     color:white;
-    vertical-align: text-bottom;
     border-bottom-right-radius: 25px;
     padding:10px;
-    margin: 10px;
-    background-color: black;
-    opacity: 0.5;
+    margin:216px 10px auto auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 228px;
+    height: 125px; 
 }
+.picdesc > h3 {
+    font-size: 15px;
+}
+.picdesc > p, .picdesc > a > p {
+    font-size: 13px;
+}
+.readmore {
+    text-align: left;   
+}
+
+.readmore:hover {
+    color:lightblue;
+    
+}
+
 .pic1 {
     width: 293px;
     border-bottom-right-radius: 25px;
