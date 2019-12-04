@@ -9,18 +9,22 @@ body {
     text-align: right;
     direction: rtl;
 }
+.mid {
+    width:900px;
+    height: 100%;
+    align-content: center;
+    margin: auto;
+    position: relative;
+}
 
-.marg {
-    margin: auto 25%;
+.homepic {
 }
 
 header {
     background-image: url(images/header_bg.png);
     color: white;
-    font-size: 26px;
     width: 100%;
     height: 105px;
-    position: relative;
     z-index: 100;
     margin: 0px;
 }
@@ -65,15 +69,54 @@ nav {
     text-decoration:underline;
   }
 
-/*  
+ 
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
 }
 
+
+.row {
+    justify-content: space-between;  
+}
+
+footer {
+    position: fixed;
+    background: url(images/footer_bg.png) repeat-x 0 0;
+    color: white;
+    width: 100%;
+    height: 38px;
+    position: fixed;
+    z-index: 999999;
+    bottom: 0px;
+}
+
+.fnavitem {
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+    height: 100%;
+    text-align: center;  
+}
+
+.fb {
+    position: relative;
+    bottom: -4px;
+    width: 18px;
+    height: 18px;
+    background: url(images/fb_icon.png) no-repeat 0 0;
+}
+
+.pshara {
+    color: red !important; 
+}
+
+
+/*
+
 .box {
     float: right;
-    width: 50%;
+    justify-content: space-between;
 }
 
 
