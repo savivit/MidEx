@@ -79,6 +79,15 @@ nav {
     opacity: 0.5;
 }
 
+.dropdown-content {
+    display:none;
+    position: absolute;    
+}
+
+dropdown-content:hover {
+    display:block;  
+}
+
 .homepic {
     position: absolute;
     bottom: -14px;
@@ -273,4 +282,93 @@ footer {
 
 .clearfix::after {
     clear: both;
+}
+
+
+/* contact html */
+.flexsonrow2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.picd {
+    height: 41px;
+    background: url(images/small_cube_bg.png) repeat-x 0 0;
+}
+
+.pice {
+    height: 400px;
+    background: url(images/small_cube_bg.png) repeat-x 0 0;   
+}
+
+.rightnav {
+    width: 122px;
+    margin-left: 22px;
+}   
+
+.pic7 {
+    width: 122px;   
+}
+
+.pic8  {
+    width: 347px;
+    border-top-right-radius: 25px;   
+}
+
+.pic9 {
+    width: 248px;
+    border-top-right-radius: 25px;
+}
+
+.contactrowdesc {
+        color: rgb(87, 87, 87);
+        padding: 10px;
+        margin: 216px 10px auto auto;
+        position: relative;
+}
+
+.contactrowdesc > h3 {
+    color:blue;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#contactFormWrapper {
+    border-style: solid solid none solid;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    padding: 12px 18px;
+    margin-bottom: 100px;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f7f7f7 49%, #f7f7f7 51%, #ececec 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(49%,#f7f7f7), color-stop(51%,#f7f7f7), color-stop(100%,#ececec));
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f7f7f7 49%,#f7f7f7 51%,#ececec 100%);
+    background: -o-linear-gradient(top, #ffffff 0%,#f7f7f7 49%,#f7f7f7 51%,#ececec 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%,#f7f7f7 49%,#f7f7f7 51%,#ececec 100%);
+}
+
+#absoulte-form {
+    position: absolute;
+    top:-220px;
+    right: 0px;
+}
+.disclimer {
+    font-size: 12px; 
+}
+
+#lineunder {
+    padding-top: 30px;
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 20px;
+}
+
+textarea {
+    font-family: 'Assistant';
+    text-align: right;
+    direction: rtl;
+}
+button {
+    font-family: 'Assistant';
+    text-align: right;
+    direction: rtl;  
+    width: 129px;
 }
