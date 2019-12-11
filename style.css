@@ -293,14 +293,17 @@ footer {
 
 .picd {
     height: 41px;
-    background: url(images/small_cube_bg.png) repeat-x 0 0;
+    background: url(images/cube_bg.png) repeat-x 0 0;
 }
 
 .pice {
-    height: 400px;
-    background: url(images/small_cube_bg.png) repeat-x 0 0;   
+    height: 320px;
+    background: url(images/cube_bg.png) repeat-x 0 0;   
 }
 
+span.pice {
+    display:inline-block;
+}
 .rightnav {
     width: 122px;
     margin-left: 22px;
@@ -316,7 +319,7 @@ footer {
 }
 
 .pic9 {
-    width: 248px;
+    width: 293px;
     border-top-right-radius: 25px;
 }
 
@@ -338,7 +341,7 @@ footer {
     border-width: 1px;
     border-color: #CCCCCC;
     padding: 12px 18px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     background: -moz-linear-gradient(top, #ffffff 0%, #f7f7f7 49%, #f7f7f7 51%, #ececec 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(49%,#f7f7f7), color-stop(51%,#f7f7f7), color-stop(100%,#ececec));
     background: -webkit-linear-gradient(top, #ffffff 0%,#f7f7f7 49%,#f7f7f7 51%,#ececec 100%);
@@ -365,10 +368,41 @@ textarea {
     font-family: 'Assistant';
     text-align: right;
     direction: rtl;
+    width: 280px;
 }
 button {
     font-family: 'Assistant';
-    text-align: right;
+    text-align: center;
     direction: rtl;  
-    width: 129px;
+    width: 280px;
+    height: 25px;
 }
+
+.area2 {
+    font-size: 13px; 
+}
+.leftcon {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+#ou1 {
+    position: absolute;
+    top:218px;
+    right: 0px;
+}
+#in1 {
+    position: absolute;
+    top:-216px;
+    right: 0px;
+}
+
+.fields {
+    font-family: 'Assistant'; 
+    font-size: 13px; 
+}
+
+.inputtextyellow {
+    margin: 4px 0px;
+}
+
